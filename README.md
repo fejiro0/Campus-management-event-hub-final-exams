@@ -144,8 +144,8 @@ Below are the key API endpoints and their functionality:
 
 ### Postman API Test Screenshot
 Below is a sample screenshot of Postman API tests for the key endpoints:
-![Login](/Login.png)
-![RSVP](/RSVP.png)
-![User Registration](/Register.png)
+![Login](/public/Login.png)
+![RSVP](/public/RSVP.png)
+![User Registration](/public/Register.png)
 
 

@@ -1,0 +1,6 @@
+[submodule "Frontend-Code"]
+	path = Frontend-Code
+	url = https://github.com/fejiro0/event-management-hub-fe.git
+[submodule "Backend-code"]
+	path = Backend-code
+	url = https://github.com/fejiro0/event-management-hub.git

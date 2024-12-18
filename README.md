@@ -22,7 +22,7 @@ The **Campus Event Management System** is a web application designed to facilita
 
 ## Deployment Link
 The application is deployed on Vercel:
-[https://event-management-hub-fe-git-main-fejiros-projects-fd950239.vercel.app/](#)
+[https://event-management-hub-fe.vercel.app/](#)
 
 ## Login Details
 For testing purposes, use the following credentials:

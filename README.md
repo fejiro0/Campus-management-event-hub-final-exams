@@ -9,6 +9,7 @@ The **Campus Event Management System** is a web application designed to facilita
 - **Backend**: Node.js with Express.js
 - **Database**: MongoDB
 - **CSS Framework**: Tailwind CSS
+- **Deployment Platforms**: Vercel, Render
 
 ## Installation Instructions
 
@@ -95,7 +96,7 @@ To run the project locally, follow these steps:
 Below are the key API endpoints and their functionality:
 
 1. **User Registration**
-   - **POST** `/api/users/register`
+   - **POST** `https://campus-event-management-hub.onrender.com/api/users/signup`
    - Request Body:
      ```json
      {
@@ -107,7 +108,7 @@ Below are the key API endpoints and their functionality:
      ```
 
 2. **User Login**
-   - **POST** `/api/users/login`
+   - **POST** `https://campus-event-management-hub.onrender.com/api/users/login`
    - Request Body:
      ```json
      {
@@ -117,10 +118,10 @@ Below are the key API endpoints and their functionality:
      ```
 
 3. **Get Events**
-   - **GET** `/api/events`
+   - **GET** `https://campus-event-management-hub.onrender.com/api/events`
 
 4. **RSVP for Event**
-   - **POST** `/api/events/rsvp`
+   - **POST** `https://campus-event-management-hub.onrender.com/api/events/rsvp`
    - Request Body:
      ```json
      {
@@ -129,7 +130,7 @@ Below are the key API endpoints and their functionality:
      ```
 
 5. **Create Event (Admin Only)**
-   - **POST** `/api/events/create`
+   - **POST** `https://campus-event-management-hub.onrender.com/api/admin/events`
    - Request Body:
      ```json
      {
